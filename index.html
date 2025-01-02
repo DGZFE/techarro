@@ -1,42 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Techarro Software Solutions - Harness the Power of Human Potential through Technology">
-    <title>Techarro Software Solutions</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techarro Solutions</title>
+  <style>
+    /* Reset some basic styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body and Fonts */
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #1a1a1a;
+        color: #e6e6e6;
+    }
+
+    /* Navbar */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #004080;
+        padding: 10px 20px;
+        color: white;
+    }
+
+    .navbar .logo h1 {
+        margin: 0;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .navbar nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .navbar nav ul li {
+        margin-left: 20px;
+    }
+
+    .navbar nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+
+    .navbar nav ul li a:hover {
+        color: #00ccff;
+    }
+
+    /* Hero Section */
+    .hero {
+        background-color: #003366;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    /* Intro Section */
+    .intro {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .intro h2 {
+        font-size: 30px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    /* Services Section */
+    .services {
+        padding: 30px 20px;
+        background-color: #262626;
+        text-align: center;
+    }
+
+    .service {
+        margin-bottom: 20px;
+    }
+
+    .service h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    /* Contact Form */
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 300px;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #333;
+        color: #e6e6e6;
+        border: 1px solid #00ccff;
+        border-radius: 5px;
+    }
+
+    .contact button {
+        background-color: #00ccff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact button:hover {
+        background-color: #0099cc;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    iframe {
+      background: none;
+      border: none;
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <h1>Techarro Solutions</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="hero">
-        <h2>Harness the Power of Human Potential through Technology</h2>
-        <p>Let us build a better tomorrow!</p>
-    </section>
-
-    <section class="intro">
-        <h2>Rewire your Business</h2>
-        <p>Discover how we can help you transform your business with modern technology solutions.</p>
-    </section>
-
-    <footer>
-        <p>Copyright © 2023 Techarro Software Solutions LLC - All Rights Reserved.</p>
-        <p>Powered by GoDaddy</p>
-    </footer>
+  <nav class="navbar">
+    <div class="logo">
+      <h1>Techarro Solutions</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </nav>
+  <section class="hero">
+    <h2>Harness the Power of Human Potential through Technology</h2>
+    <p>Let us build a better tomorrow!</p>
+  </section>
+  <section class="intro">
+    <h2>Rewire your Business</h2>
+    <p>Discover how we can help you transform your business with modern technology solutions.</p>
+  </section>
+  <footer>
+    <p>Copyright © 2025 Techarro Software Solutions LLC - All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
+
