@@ -1,115 +1,108 @@
-/* Reset some basic styles */
+/* Reset some default browser styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Fonts */
+/* Body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #004080;
-    padding: 10px 20px;
-    color: white;
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.navbar .logo h1 {
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
     margin: 0;
 }
 
-.navbar nav ul {
-    list-style-type: none;
-    display: flex;
+header nav {
+    float: right;
+    margin-top: 10px;
 }
 
-.navbar nav ul li {
-    margin-left: 20px;
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
 }
 
-.navbar nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
+header a:hover {
+    color: #77aaff;
 }
 
-/* Hero Section */
-.hero {
-    background-color: #003366;
-    color: white;
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    background: url('showcase.jpg') no-repeat 0 -400px;
     text-align: center;
-    padding: 50px 20px;
+    color: #fff;
 }
 
-.hero h2 {
-    font-size: 36px;
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
     margin-bottom: 10px;
 }
 
-.hero p {
+#showcase p {
     font-size: 20px;
 }
 
-/* Intro Section */
-.intro {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.intro h2 {
-    font-size: 30px;
-}
-
-/* Services Section */
-.services {
-    padding: 30px 20px;
-    background-color: white;
-    text-align: center;
-}
-
-.service {
-    margin-bottom: 20px;
-}
-
-.service h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Contact Form */
-.contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact input,
-.contact textarea {
-    width: 300px;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.contact button {
-    background-color: #004080;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+/* Main content */
+#main {
+    padding: 20px;
+    background: #fff;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background: #333;
+    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
+    margin-top: 30px;
 }
+
+footer p {
+    margin: 0;
+}
+
